@@ -1,0 +1,141 @@
+body{
+    margin:0;
+    padding:0;
+   }
+    
+   .main-container{
+    text-align: center;
+    background:#DDD1C7;
+   }
+    
+   .heading{
+    padding-top: 80px;
+    color:#444;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 20px solid #8A3E07;
+    width: 280px;
+    margin:auto;
+    line-height: 80px;
+   }
+    
+   .sub-container{
+    max-width:1200px;
+    margin:auto;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+   }
+    
+   .members{
+    margin: 10px;
+    padding:20px;
+
+    box-sizing: border-box;
+    cursor: pointer;
+   max-width:33.3%;
+   }
+    
+   .members:hover {
+    background: #ddd;
+   }
+    
+   .members img{
+      width: 100px;
+      height:100px;
+      border:1px solid #E1e0DE;
+      border-radius: 50%;
+      }
+    
+      .name{
+        padding:20px;
+        color:#8A3E07;
+        font-size:14px;
+        text-transform: uppercase;
+      }
+    
+   .post{
+        font-style: italic;
+        color:#999;
+      }
+   .desc {margin:20px 0;
+             text-align: justify;
+            font-weight: lighter;
+             line-height:25px;
+            columns: #4e4e4e;}
+   
+
+            footer {
+                padding : 20px;
+                color : #ffffff;
+                background-color : #35424a;
+                text-align : center;
+                }
+                .icons img {
+                width : 40px;
+                height : 40px;
+                margin-left : 20px;
+                margin-right : 20px;
+                }
+                .footerfont {
+                font-size : 25px;
+                }           
+
+
+
+
+body {
+    font-family : Arial, Helvetica, sans-serif;
+    line-height : 1.5;
+    padding : 0;
+                    margin : 0;
+                    background-color : #DDD1C7;
+                    }
+                    .container {
+                    width : 80%;
+                    margin : auto;
+                    overflow : hidden;
+                    }
+                    ul {
+                    margin : 0;
+                    padding : 0;
+                    }
+                    header {
+                    background : #35424a;
+                    color : #ffffff;
+                    padding-top : 30px;
+                    min-height : 70px;
+                    }
+                    header a {
+                    color : #ffffff;
+                    text-decoration : none;
+                    font-size : 16px;
+                    }
+                    .header {
+                    font-size : 35px;
+                    }
+                    header li {
+                    display : inline;
+                    padding : 0 20px 0 20px;
+                    }
+                    .logo-image {
+                    height : 100px;
+                    width : 130px;
+                    margin-bottom : 10px;
+                    }
+                    header #logo h1 {
+                    margin : 0;
+                    }
+                    header nav {
+                    float : right;
+                    margin-top : 35px;
+                    }
+                    header .highlight, header .current a {
+                    font-weight : bold;
+                    color : #CFC0BD;
+                    }
+                    header a:hover {
+                    color : #000000;
+                    font-weight : bold;
+                    }

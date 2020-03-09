@@ -1,0 +1,141 @@
+body {
+    font-family : Arial, Helvetica, sans-serif;
+    line-height : 1.5;
+    padding : 0;
+    margin : 0;
+    background-color : #ddd1c7;
+    }
+    .container {
+    width : 80%;
+    margin : auto;
+    overflow : hidden;
+    }
+    ul {
+    margin : 0;
+    padding : 0;
+    }
+    header {
+    background : #35424a;
+    color : #ffffff;
+    padding-top : 30px;
+    min-height : 70px;
+    }
+    header a {
+    color : #ffffff;
+    text-decoration : none;
+    font-size : 16px;
+    }
+    .header {
+    font-size : 35px;
+    }
+    header li {
+    float : left;
+    display : inline;
+    padding : 0 20px 0 20px;
+    }
+    .logo-image {
+    height : 100px;
+    width : 80px;
+    margin-bottom : 10px;
+    }
+    header #logo h1 {
+    margin : 0;
+    }
+    header nav {
+    float : right;
+    margin-top : 35px;
+    }
+    header .highlight, header .current a {
+    font-weight : bold;
+    color : #cfc0bd;
+    }
+    header a:hover {
+    color : #000000;
+    font-weight : bold;
+    }
+    h1 {
+    font-size : 70px;
+    }
+    h2 {
+    font-size : 30px;
+    }
+    .contact {
+    margin : 0;
+    padding : 0;
+    text-align : center;
+    }
+   
+    .contact-title {
+    margin-top : 100px;
+    transition : all 4s ease-in-out;
+    }
+    .contact-title h1 {
+    line-height : 10px;
+    }
+    .contact-title h2 {
+    font-size : 16px;
+    }
+    form {
+    margin-top : 50px;
+    transition : all 4s ease-in-out;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    }
+    .form-control {
+    width : 600px;
+    background : #ffffff;
+    border : none;
+    outline : none;
+    border-bottom : 1px #fff;
+    color : #fff;
+    font-size : 18px;
+    margin-bottom : 16px;
+    border-style : solid;
+    border-width : 2px;
+    border-color : black;
+    }
+    input {
+    height : 45px;
+    }
+    form .submit {
+    background : #ff5722;
+    background-color : #ffffff;
+    color : #000;
+    font-size : 20px;
+    font-weight : bold;
+    letter-spacing : 2px;
+    height : 50px;
+    margin-top : 20px;
+    }
+    form .submit:hover {
+    background-color : #ddd1c7;
+    cursor : pointer;
+    }
+    
+    message{
+      left: 50px;
+    }
+    label{
+      opacity: 0.01;
+      left: 50px;
+    }
+    footer {
+    padding : 10px;
+    color : #ffffff;
+    background-color : #35424a;
+    text-align : center;
+    right : 0;
+    bottom : 0;
+    left : 0;
+    }
+    .icons img {
+    width : 40px;
+    height : 40px;
+    margin-left : 20px;
+    margin-right : 20px;
+    }
+    .footerfont {
+    font-size : 25px;
+    }

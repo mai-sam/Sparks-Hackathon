@@ -1,0 +1,109 @@
+body {
+    font-family : Arial, Helvetica, sans-serif;
+    line-height : 1.5;
+    padding : 0;
+    margin : 0;
+    background-color : #DDD1C7;
+    }
+    .container {
+    width : 80%;
+    margin : auto;
+    overflow : hidden;
+    }
+    ul {
+    margin : 0;
+    padding : 0;
+    }
+    header {
+    background : #35424a;
+    color : #ffffff;
+    padding-top : 30px;
+    min-height : 70px;
+    }
+    header a {
+    color : #ffffff;
+    text-decoration : none;
+    font-size : 16px;
+    }
+    .header {
+    font-size : 35px;
+    }
+    header li {
+    display : inline;
+    padding : 0 20px 0 20px;
+    }
+    .logo-image {
+    height : 100px;
+    width : 130px;
+    margin-bottom : 10px;
+    }
+    header #logo h1 {
+    margin : 0;
+    }
+    header nav {
+    float : right;
+    margin-top : 35px;
+    }
+    header .highlight, header .current a {
+    font-weight : bold;
+    color : #CFC0BD;
+    }
+    header a:hover {
+    color : #000000;
+    font-weight : bold;
+    }
+    h1 {
+    font-size : 60px;
+    text-shadow : 2px 2px #ffffff;
+    margin-bottom : -10px;
+    margin-top: 0px;
+    text-align: center;
+    }
+
+    .imgbox {
+        display: grid;
+        height: 100%;
+    }
+    .center-fit {
+        max-width: 100%;
+        max-height: 50%;
+        margin: auto;
+    }
+
+    footer {
+        padding : 20px;
+        color : #ffffff;
+        background-color : #35424a;
+        text-align : center;
+        }
+        .icons img {
+        width : 40px;
+        height : 40px;
+        margin-left : 20px;
+        margin-right : 20px;
+        }
+        .footerfont {
+        font-size : 25px;
+        }
+
+
+        #boxes {
+            margin-top : 20px;
+            }
+            #boxes .box {
+            float : left;
+            text-align : center;
+            width : 30%;
+            padding : 10px;
+            }
+            #boxes .box img {
+            width : 100px;
+            }
+            .wrapper {
+            border : #FFF solid 5px;
+            width : 600px;
+            height : 700px;
+            color : #FFF;
+            margin : 200px auto 100px auto;
+            padding : 20px
+            }
